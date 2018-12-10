@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Song || Song I Like</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="menu">
+        <a  id="home" class="fas fa-bars" href="#"></a><span> MENU</span>
+        <ul class="sub-menu">
+            <li><a href="Create-Song-copy.html" title="Create Song">Create Song</a></li>
+            <li><a href="Latest-Song-Copy.html" title="Latest Song">Latest Song</a></li>
+            <li><a href="My-Song-Copy.html" title="My Song">My Song</a></li>
+        </ul>
+    </div>
+    <div class="logo">
+        <img src="logo03.png">
+        <div class="search"><input type="text" name="search" placeholder="Search.."></div>
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="menu-login">
+        <ul>
+            <li><a href="Register-copy.html" title="Register member">Register</a></li>
+            <li><a href="copy-login.html" title="Member login">Login</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main-content">
+    <form action="" name="song-form">
+        <div class="row">
+            <div class="col-1">Name</div>
+            <div class="col-6">
+                <input type="text" id="name" name="name">
+                <span></span>
+            </div>
+        </div>
+        <div class="row odd-line">
+            <div class="col-1">Singer Name</div>
+            <div class="col-6">
+                <input type="text" id="singer" name="singer">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">Author</div>
+            <div class="col-6">
+                <input type="text" id="author" name="author">
+                <span></span>
+            </div>
+        </div>
+        <div class="row odd-line">
+            <div class="col-1">Thumbnail</div>
+            <div class="col-6">
+                <input type="text" id="thumbnail" name="thumbnail">
+                <span></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">Link</div>
+            <div class="col-6">
+                <input type="text" id="link" name="link">
+                <span></span>
+            </div>
+        </div>
+        <div class="row odd-line submit">
+            <div class="col-1"></div>
+            <div class="col-6">
+                <input type="button" name="btn-submit" value="Submit">
+                <input type="reset" name="btn-reset" value="Reset">
+            </div>
+        </div>
+    </form>
+</div>
+<script src="Create-song-js.js"></script>
+</body>
+</html>
